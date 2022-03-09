@@ -4,77 +4,88 @@
     <meta charset="UTF-8">
     <meta hhtp-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-    </style>
-
-
-<!---Extensão css-->
+    <!---Fonte google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Selfcare</title>
-    <link rel="stylesheet" type="text/css" href="style.css"
+
  </head>
 
 
  <!--Navbar/Capa-->
 <body>
     <header>
-        <img class="imagem-principal1" src="selfcare.png" alt="Imagem de Design">
-        <img class="imagem-principal2" src="icones.png" alt="Imagem de Design">
+        <nav>
+            <img class="imagem-principal1" src="img/selfcaree.svg" alt="Imagem de Design">
+            <img class="imagem-principal2" src="img/iconess.svg" alt="Imagem de Design">
+        </nav>
+
         <img class="imagem-principal3" src="capa.png" alt="Imagem de Design">
     </header>
 
 <!--Imagens dos Produtos-->
-    <section>
-        <p class="titulo-principal">PROMOÇÃO</p>
-        <p class="nome">9 produtos</p>
+    <main>
+        <section id="titulos">
+            <p class="titulo-principal">PROMOÇÃO</p>
+            <p class="nome">9 produtos</p>
+        </section>
 
-       <hr class="linha">
-        
+        <section id="produtos">
+            <div class="produtos-container">
+                <img class="produto-principal1" src="produto1.png" alt="Imagem de Design">
+                <p class="produto-principal-titulo">Lorem ipsum dolor sit</p>
+                <p class="priceproduct">R$ <span id="pricecolor"> 50,00</span></p>
+            </div>
+            <div class="produtos-container">
+                <img class="produto-principal1" src="produto2.png" alt="Imagem de Design">
+                <p class="produto-principal-titulo">Lorem ipsum dolor sit</p>
+                <p class="priceproduct">R$ <span id="pricecolor"> 50,00</span></p>
+            </div>
+            <div class="produtos-container">
+                <img class="produto-principal1" src="produto3.png" alt="Imagem de Design">
+                <p class="produto-principal-titulo">Lorem ipsum dolor sit</p>
+                <p class="priceproduct">R$ <span id="pricecolor"> 50,00</span></p>
+            </div>
+            <div class="produtos-container">
+                <img class="produto-principal1" src="produto4.png" alt="Imagem de Design">
+                <p class="produto-principal-titulo">Lorem ipsum dolor sit</p>
+                <p class="priceproduct">R$ <span id="pricecolor"> 50,00</span></p>
+            </div>
+            <div class="produtos-container">
+                <img class="produto-principal1" src="produto5.png" alt="Imagem de Design">
+                <p class="produto-principal-titulo">Lorem ipsum dolor sit</p>
+                <p class="priceproduct">R$ <span id="pricecolor"> 50,00</span></p>
+            </div>
+            <div class="produtos-container">
+                <img class="produto-principal1" src="produto6.png" alt="Imagem de Design">
+                <p class="produto-principal-titulo">Lorem ipsum dolor sit</p>
+                <p class="priceproduct">R$ <span id="pricecolor"> 50,00</span></p>
+            </div>
+            <div class="produtos-container">
+                <img class="produto-principal1" src="produto7.png" alt="Imagem de Design">
+                <p class="produto-principal-titulo">Lorem ipsum dolor sit</p>
+                <p class="priceproduct">R$ <span id="pricecolor"> 50,00</span></p>
+            </div>
+            <div class="produtos-container">
+                <img class="produto-principal1" src="produto8.png" alt="Imagem de Design">
+                <p class="produto-principal-titulo">Lorem ipsum dolor sit</p>
+                <p class="priceproduct">R$ <span id="pricecolor"> 50,00</span></p>
+            </div>
+            <div class="produtos-container">
+                <img class="produto-principal1" src="produto9.png" alt="Imagem de Design">
+                <p class="produto-principal-titulo">Lorem ipsum dolor sit</p>
+                <p class="priceproduct">R$ <span id="pricecolor"> 50,00</span></p>
+            </div>
 
-        <img class="produto-principal1" src="produto1.png" alt="Imagem de Design">
-        <p class="produto-principal-titulo">Lorem ipsum dolor sit</p>
-        <P ID="priceproduct">R$ <span id="pricecolor"> 50,00</span></P>
+          
+        </section>
+    </main>
 
-       <img class="produto-principal2" src="produto2.png" alt="Imagem de Design">
-       <p class="produto-principal-titulo2">Lorem ipsum dolor sit</p>
-       <P ID="priceproduct1">R$ <span id="pricecolor1"> 50,00</span></P>
-       
-       <img class="produto-principal3" src="produto3.png" alt="Imagem de Design">
-       <p class="produto-principal-titulo3">Lorem ipsum dolor sit</p>
-       <P ID="priceproduct2">R$ <span id="pricecolor2"> 50,00</span></P>
-
-
-        
-       <img class="produto-principal4" src="produto4.png" alt="Imagem de Design">
-       <p class="produto-principal-titulo4">Lorem ipsum dolor sit</p>
-       <P ID="priceproduct3">R$ <span id="pricecolor3"> 50,00</span></P> 
-
-       <img class="produto-principal5" src="produto5.png" alt="Imagem de Design">
-       <p class="produto-principal-titulo5">Lorem ipsum dolor sit</p>
-       <P ID="priceproduct4">R$ <span id="pricecolor4"> 50,00</span></P>
-
-       <img class="produto-principal6" src="produto6.png" alt="Imagem de Design">
-       <p class="produto-principal-titulo6">Lorem ipsum dolor sit</p>
-       <P ID="priceproduct5">R$ <span id="pricecolor5"> 50,00</span></P>
-
-       <img class="produto-principal7" src="produto7.png" alt="Imagem de Design">
-       <p class="produto-principal-titulo7">Lorem ipsum dolor sit</p>
-       <P ID="priceproduct6">R$ <span id="pricecolor6"> 50,00</span></P>
-
-       <img class="produto-principal8" src="produto8.png" alt="Imagem de Design">
-       <p class="produto-principal-titulo8">Lorem ipsum dolor sit</p>
-       <P ID="priceproduct7">R$ <span id="pricecolor7"> 50,00</span></P>
-
-       <img class="produto-principal9" src="produto9.png" alt="Imagem de Design">
-       <p class="produto-principal-titulo9">Lorem ipsum dolor sit</p>
-       <P ID="priceproduct8">R$ <span id="pricecolor8"> 50,00</span></P>
-
-    </section>
-
-    <hr class="linha2">
     <!--CONTATOS-->
-    <section class="contatos1">
+    <footer class="contatos1">
         <p class="contato">Contato</p>
         <p class="servico">Termos de Serviço</p>
         <p class="politica">Politica de privacidade</p>
@@ -95,7 +106,7 @@
         <img class="insta" src="insta.png">
         <img class="face" src="face.png">
         <img class="cartoes" src="cartoes.png">
-    </section>
+    </footer>
 
 </body>
     </div>
