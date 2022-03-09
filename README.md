@@ -1,2 +1,2 @@
 #  https://josianetargino.github.io/Selfcare-Store/
-Projeto em desenvolvimento de loja.
+Desafio prático de programação para o DevChallenge.
