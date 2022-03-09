@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
 .imagem-principal1{
     width: 91,28 px;
     height: 31px;
@@ -23,21 +30,9 @@
     left: 0px;
 }
 
-.pagina{
-    margin: 0%;
-    padding: 0%;
-}
 
-.linha{
-    position: absolute;
-    width: 1440px;
-    height: 0px;
-    left: 1px;
-    top: 555px;
-    border:(165,161,161,1);
-border-color: #A5A1A1; 
 
-}
+
 
 .titulo-principal{
 position: absolute;
@@ -65,6 +60,25 @@ color: #161616;
    color: #161616;
 }
 
+.linha{
+    position: absolute;
+    width: 1440px;
+    height: 0px;
+    left: 1px;
+    top: 555px;
+    border:(165,161,161,1);
+ border-bottom: 1px solid #A5A1A1; 
+}
+.linha2{
+    position: absolute;
+    width: 1440px;
+    height: 0px;
+    left: -6px;
+    top: 2037px;
+    border:(165,161,161,1);
+ border-bottom: 1px solid #A5A1A1; 
+}
+
 
 .produto-principal1{
     position: absolute;
@@ -81,9 +95,9 @@ color: #161616;
     top: 938px;
    font-family: lato;
    font-style: normal;
-}  
-    
-.produto-principal-titulo1{
+}    
+#priceproduct{ 
+    color: #161616;
     position: absolute;
     width: 292px;
     height: 30px;
@@ -91,7 +105,16 @@ color: #161616;
     top: 975px;
     font-family: lato;
     font-style: normal;
-    color: #5ca720; 
+}
+#pricecolor{
+    color: #5ca720;
+  
+    width: 292px;
+    height: 30px;
+    left: 70px;
+    top: 975px;
+    font-family: lato;
+    font-style: normal;
 }
 
 
@@ -111,8 +134,18 @@ color: #161616;
     font-family: lato;
     font-style: normal;
 }
-.produto-principal-titulo21{
+#priceproduct1{
     position: absolute;
+    width: 292px;
+    height: 30px;
+    left: 568px;
+    top: 975px;
+    font-family: lato;
+    font-style: normal;
+    color: #161616;
+}
+#pricecolor1{
+   
     width: 292px;
     height: 30px;
     left: 568px;
@@ -139,8 +172,16 @@ color: #161616;
     font-family: lato;
     font-size: normal;
 }
-.produto-principal-titulo31{
+#priceproduct2{
     position: absolute;
+    width: 292px;
+    height:30px;
+    left:1066px;
+    top:975px;
+    font-family: lato;
+    color: #161616;
+}
+#pricecolor2{
     width: 292px;
     height:30px;
     left:1066px;
@@ -166,8 +207,16 @@ color: #161616;
     font-family: lato;
     font-size: normal;   
 }
-.produto-principal-titulo41{
+#priceproduct3{
     position: absolute;
+    width: 292px;
+    height:30px;
+    left: 71px;
+    top:1433px;
+    font-family: lato;
+    color: #161616;
+}
+#pricecolor3{
     width: 292px;
     height:30px;
     left: 71px;
@@ -193,8 +242,16 @@ color: #161616;
     font-family: lato;
     font-size: normal;   
 }
-.produto-principal-titulo51{
+#priceproduct4{
     position: absolute;
+    width: 292px;
+    height:30px;
+    left: 569px;
+    top:1433px;
+    font-family: lato;
+    color: #161616;
+}
+#pricecolor4{
     width: 292px;
     height:30px;
     left: 569px;
@@ -220,8 +277,16 @@ color: #161616;
     font-family: lato;
     font-size: normal;   
 }
-.produto-principal-titulo61{
+#priceproduct5{
     position: absolute;
+    width: 292px;
+    height:30px;
+    left: 1067px;
+    top:1433px;
+    font-family: lato;
+    color: #161616;
+}
+#pricecolor5{
     width: 292px;
     height:30px;
     left: 1067px;
@@ -247,8 +312,16 @@ color: #161616;
     font-family: lato;
     font-size: normal;   
 }
-.produto-principal-titulo71{
+#priceproduct6{
     position: absolute;
+    width: 292px;
+    height:30px;
+    left: 71px;
+    top: 1891px;
+    font-family: lato;
+    color: #161616;
+}
+#pricecolor6{
     width: 292px;
     height:30px;
     left: 71px;
@@ -274,8 +347,16 @@ color: #161616;
     font-family: lato;
     font-size: normal;   
 }
-.produto-principal-titulo81{
+#priceproduct7{
     position: absolute;
+    width: 292px;
+    height:30px;
+    left: 569px;
+    top: 1891px;
+    font-family: lato;
+    color: #161616;
+}
+#pricecolor7{
     width: 292px;
     height:30px;
     left: 569px;
@@ -301,8 +382,16 @@ color: #161616;
     font-family: lato;
     font-size: normal;   
 }
-.produto-principal-titulo91{
+#priceproduct8{
     position: absolute;
+    width: 292px;
+    height:30px;
+    left: 1067px;
+    top: 1891px;
+    font-family: lato;
+    color: #161616;
+}
+#pricecolor8{
     width: 292px;
     height:30px;
     left: 1067px;
@@ -313,7 +402,8 @@ color: #161616;
 
 
 .contatos1{
-    background-color: #F9F9F9;
+    background: rgba(249, 249, 249, 1);
+
 }
 .contato{
     position: absolute;
@@ -367,7 +457,7 @@ color: #161616;
     left: 834px;
     top: 2149px;
     font-family: lato;
-    color: #a8a4a4;
+    color: #F9F9F9;
 }
 .insta{
     position: absolute;
@@ -388,6 +478,8 @@ color: #161616;
     color: #a8a4a4;
 }
 .cartoes{
+    background: rgba(249, 249, 249, 1);
+
     position: absolute;
     width: 189px;
     height:43.71px;
@@ -420,6 +512,8 @@ color: #A8A4A4;
 }
 
  .caixa{
+    background: rgba(249, 249, 249, 1);
+
      position: absolute;
      width: 549px;
      height: 96px;
