@@ -98,16 +98,49 @@ width: 100px;
 
 /*==============*/
 
-
+/*=====segundofooter=====*/
 footer{ 
-    border: 1px solid yellow;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 40px 0 182px 81px;
-    gap: 100px;
+    border: 1px solid orange;
+    background: #F9F9F9;
     
+    padding: 40px 0 182px 81px;
+    gap: 100px;   
+    
+}
+.caixa1{
+    border: 1px solid lightsalmon;
+    
+    gap: 10px ;
+    flex-direction: row;
+    font-weight: 600;
+    font-size: 20px;
+
+    display: flex;
+   justify-content: space-around;
+   
+}
+.contatos{
 
 }
+.caixa{
+
+}
+
+.formasdecontato{
+    border: 1px solid red;
+   
+    
+  flex-wrap: nowrap;
+  
+}
+.redessociais{
+
+}
+.cartoes{
+    
+}
+
+
 
 
   
