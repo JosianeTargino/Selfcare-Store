@@ -9,6 +9,7 @@
 body{
 font-family: 'Lato', sans-serif;
   color: #161616;  
+  cursor: pointer;
 }
 
 /* === NAV === */
@@ -27,10 +28,9 @@ width: 100px;
 
 /*===CAPA===*/
 .imagem-principal3{
-    width: 1440px;
-    height: 375px;
-    top: 95px;
-    left: 0px;
+    width: 100%;
+    height: 100%;
+    
 }
 
 
@@ -63,7 +63,7 @@ width: 100px;
 
 /* === Produtos === */
 #produtos{
-   border: 1px solid blue;
+  
    display: flex;
    flex-wrap: wrap;
    gap: 110px;
@@ -75,7 +75,6 @@ width: 100px;
     height: 393px;
     width: 303px;
 
-    border: 1px solid red;
 
     font-weight: 500;
     font-size: 22px;
@@ -98,48 +97,211 @@ width: 100px;
 
 /*==============*/
 
-/*=====segundofooter=====*/
-footer{ 
-    border: 1px solid orange;
-    background: #F9F9F9;
-    
-    padding: 40px 0 182px 81px;
-    gap: 100px;   
-    
-}
-.caixa1{
-    border: 1px solid lightsalmon;
-    
-    gap: 10px ;
-    flex-direction: row;
-    font-weight: 600;
-    font-size: 20px;
 
+/*===FOOTER====*/
+
+.button{
+    background: rgba(92, 167, 32, 1);
+    border: none;
+    padding: 0.8rem;
+    color: rgba(255, 255, 255, 1);
+    margin: 0px;
+    font-size: 15px;
+    margin-left: -4px;
+    width: 10rem;
+}
+span{
+    color: rgba(92, 167, 32, 1);
+    font-size: 1.3rem;
+}
+
+hr{
+    color:rgba(165, 161, 161, 1);
+}
+#sectionfooter{
+    height: 60vh;
+    margin-top: 4rem;
+    background: rgba(249, 249, 249, 1);
+}
+#divsuperior{
     display: flex;
-   justify-content: space-around;
-   
+    height: 50vh;
 }
-.contatos{
+#divsuperior>div{
+    width: 50%;
+}
+#listafooter{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
 
 }
-.caixa{
-
+#listafooter ul{
+   margin-left: 4rem
+}
+#listafooter li{
+    margin-bottom: 1rem;
+    list-style:none;
 }
 
-.formasdecontato{
-    border: 1px solid red;
-   
+#email{
+    border: none;
+    padding: 0.8rem;
+    width: 22rem;
+}
+
+#divinferior{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background: #F9F9F9;
+}
+#divinferior div{
+    display: flex;
+    align-items: center;
+}
+#divinferior img{
+    height: 2rem;
+    width: auto;
+}
+#divinferior div{
+    display: flex;
+    gap: 1rem;
+}
+#divinput{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#divflex{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 4rem;
+}
+#divflexflex{
+    display: block;
+}
+#divflexflex h2{
+    margin-bottom: 1rem;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    column-gap: 10%;
+    row-gap: 3rem;
+}
+
+@media(max-width:900px){
+ .flex-items{
+     width: 200px;
+     height: auto;
+ }
+ .flex-container{
+    gap: 1;
+    margin-left: 2rem;
+    margin-right: 2rem;
+ }
+ 
+ #inforcoesiniciais{
+     padding-left: 2rem;
+     padding-right: 2rem;
+ }
+ header{
+     padding-left: 2rem;
+     padding-right: 2rem;
+ }
+ #divsuperior{
+    display: block;
+ }
+ #divsuperior>div{
+    width: 100%;
+    height: 50%; 
+}
+#divinput{
+    display: block;
+}
+#divinput div{
+    width: 100%;
+} 
+#divinput div{
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+#divinput h2{
+    padding-left: 2rem;
+    font-size: 1.3rem;
+}
+#divinferior img{
+    height: 1.3rem;
+    width: auto;
     
-  flex-wrap: nowrap;
-  
 }
-.redessociais{
-
+#divinferior >div{
+    display: flex;
+    gap: 1rem;
 }
-.cartoes{
-
+#email{
+    border: none;
+    padding: 0.8rem;
+    
+    width: 73%;
+}
+.button{
+    border: none;
+    padding: 0.8rem;
+    width: 80%;
+    font-size: 15px;
+}
+#divflex{
+    display: block;
+    padding: 0px;
+}
+#divflexflex h2{
+    margin-left: 2rem;
+}
+#listafooter ul{
+    margin-left: 2rem
+ }
+ span{
+    
+    font-size: 1.2rem;
+}
+ #sectioncapa{
+    height: 200px;
+}
+#sectioncapa img{
+    height: 100%;
+}
+#divinferior {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 }
 
+@media(max-width:550px){
+    .flex-items{
+        width: 100px;
+        height: auto;
+    }
+    .flex-container{
+        gap: 2rem;
+    }
+} 
+@media(max-width:310px){
+    .flex-container{
+        justify-content: center;
+        gap: 1;
+    }
+} 
 
 
 
